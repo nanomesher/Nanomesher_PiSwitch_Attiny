@@ -149,7 +149,7 @@ void loop() {
             waitingOffTimeoutCount = waitingOffTimeoutCount + 1;
           }
           
-          if(checkOffCount>=2)
+          if(checkOffCount>=10)
           {
               //It's really off
               digitalWrite(LED_PIN, LOW);
